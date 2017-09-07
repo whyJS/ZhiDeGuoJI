@@ -1,0 +1,367 @@
+*
+{
+	list-style: none;
+	text-decoration: none;
+	/*margin: 0px;*/
+}
+a
+{
+	color: black;
+}
+.top
+{
+	height: 150px;
+	width: 980px;
+	margin: 0px auto;
+	/*border: solid 1px;*/
+}
+.top_chuang
+{
+	height: 135px;
+	width: 980px;
+	background: url(../image/logo.png) no-repeat;
+	background-size: 180px;
+	
+}
+.top_chuang ul
+{
+	display: inline-block;
+	float: right;
+}
+.top_chuang li
+{
+	display: inline-block;
+	height: 16.2px;
+	width: 36px;
+	font-size: 18px;
+	margin-left: 60.5px;
+}
+.provide
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+.shouye
+{
+	font-size: 18px;
+	float: right;
+	font-weight: bold;
+}
+
+
+/*八个模块按钮*/
+.biaoti
+{
+	position: relative;
+	height: 169.2px;
+	width: 980px;
+	margin: 0px auto;
+	margin-top: 20px;
+	/*border: solid 1px;*/
+}
+.biaoti ul
+{
+	position: relative;
+	display: inline-block;
+	height: 45px;
+	width: 980px;
+	background-color: #ebeff1;
+	padding: 0px;
+	margin: 0px;
+}
+.biaoti ul li
+{
+	float: left;
+	/*display: inline-block;*/
+	font-size: 16px;
+	line-height: 45px;
+	width: 122.5px;
+	height: 45px;
+	text-align: center;
+
+	/*border: solid 1px;*/
+}
+.biaoti ul li:hover 
+{
+	background-color: #243240;
+	color: white;
+}
+.biaoti ul li:hover a
+{
+	color: white;
+}
+.bg
+{
+	width: 980px;
+	height: 128px;
+	margin-top: 8px;
+	/*border: solid 1px;*/
+	background: url(../image/pingtai.jpg) no-repeat;
+}
+
+
+/*中间三个导航的设置*/
+.position
+{
+	height: 59px;
+	width: 980px;
+	margin: auto;
+	margin-top: 27px;
+	/*border: solid 1px;*/
+}
+#lower
+{
+	font-size: 14px;
+	color: #243240;
+}
+.local
+{
+	font-size: 14px;
+	color: #676767
+}
+.position ul
+{
+margin: 0px;
+margin-top: 10px;
+ position: relative;
+ display: inline-block;
+ width: 980px;
+ height: 32.4px;
+ padding: 0px;
+}
+.position .sanxiang1
+{
+	float: left;
+	height: 32.4px;
+	width: 326.66px;
+	padding: 0px;
+	margin: 0px;
+	/*border: solid 1px;*/
+	text-align: center;
+	line-height: 32.4px;
+	background-color: #ebeff1;
+	font-size: 14px;
+}
+
+.position .sanxiang
+{
+	float: left;
+	height: 32.4px;
+	width: 326.66px;
+	padding: 0px;
+	margin: 0px;
+	/*border: solid 1px;*/
+	text-align: center;
+	line-height: 32.4px;
+	background-color: #243240;
+	color: white;
+	font-size: 14px;
+}
+.position li:hover
+{
+	background: #243240;
+}
+.position span
+{
+	font-size: 14px;
+}
+.position li:hover span
+{
+	color: white;
+}
+
+
+
+
+/*设置中间三个div大模块的样式，并设置隐藏*/
+#moban
+{
+	height: 378px;
+	width: 980px;
+	margin: 0px auto;
+	margin-top: 20px;
+	margin-bottom: 90px;
+	/*border: 1px solid;*/
+}
+#moban ul
+{
+	padding: 0px;
+	margin-top: 0px;
+}
+#moban li
+{
+	float:left;
+	height: 180px;
+	width: 293px;
+	background-color: #ebeff1;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+#moban li[class='c1']
+{
+	margin-right: 0px;
+}
+#moban img
+{
+	float: left;
+	width: 90px;
+	height: 90px;
+	padding:45px 16px 45px 40px;
+}
+#moban span
+{
+	float: left;
+	line-height: 180px;
+	font-size: 14px;
+}
+
+
+
+
+#moban1
+{
+	height: 378px;
+	width: 980px;
+	margin: 0px auto;
+	margin-top: 20px;
+	margin-bottom: 90px;
+	/*border: 1px solid;*/
+	/*display: none;*/
+}
+#moban1 ul
+{
+	padding: 0px;
+	margin-top: 0px;
+}
+#moban1 li
+{
+	float:left;
+	height: 180px;
+	width: 293px;
+	background-color: #ebeff1;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+#moban1 li[class='c1']
+{
+	margin-right: 0px;
+}
+#moban1 img
+{
+	float: left;
+	width: 90px;
+	height: 90px;
+	padding:45px 16px 45px 40px;
+}
+#moban1 span
+{
+	float: left;
+	line-height: 180px;
+	font-size: 14px;
+}
+
+
+
+#moban2
+{
+	height: 378px;
+	width: 980px;
+	margin: 0px auto;
+	margin-top: 20px;
+	margin-bottom: 90px;
+	/*border: 1px solid;*/
+	/*display: none;*/
+}
+#moban2 ul
+{
+	padding: 0px;
+	margin-top: 0px;
+}
+#moban2 li
+{
+	float:left;
+	height: 180px;
+	width: 293px;
+	background-color: #ebeff1;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+#moban2 li[class='c1']
+{
+	margin-right: 0px;
+}
+#moban2 img
+{
+	float: left;
+	width: 90px;
+	height: 90px;
+	padding:45px 16px 45px 40px;
+}
+#moban2 span
+{
+	float: left;
+	line-height: 180px;
+	font-size: 14px;
+}
+
+
+
+/*设置三个div之间的隐藏与显示*/
+.hidd
+{
+	display: none;
+}
+.obv
+{
+	display: block;
+}
+
+
+
+
+.bottom
+{
+	margin: auto;
+	/*min-width: 1200px;*/
+	height: 180px;
+	width: 100%;
+	background: #243240;
+	color: white;
+	font-size: 14px;
+
+}
+table
+{
+	padding: 30px;
+	margin: 0px auto;
+}
+td
+{
+	width: 320px;
+	height: 40px;
+	line-height: 35px;
+	/*border: solid 1px;*/
+	font-size: 12px;
+}
+.erwei
+{
+	background: url(../image/erwei.png) no-repeat;
+	background-position: top right;
+	background-size: 100px;
+}
+.erwei 
+{
+	font-size: 12px;
+	margin-left: 210px;
+	margin-top: 200px;
+	text-align: right;
+	vertical-align: bottom;
+	padding-right: 10px;
+}
+.bottom a
+{
+	color: white;
+	text-decoration: none;
+}
+
+

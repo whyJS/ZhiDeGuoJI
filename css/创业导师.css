@@ -1,0 +1,196 @@
+*
+{
+	text-decoration: none;
+}
+a
+{
+	color: black;
+}
+.position_1
+{
+	height: 108px;
+	width: 980px;
+	/*border: solid 1px;*/
+	margin: auto;
+	margin-top: 24px;
+}
+.daoshi
+{
+	font-size: 14px;
+}
+.fenlei
+{
+	height: 32.4px;
+	width: 980px;
+	background: #ebeff1;
+	border: solid 1px #b7b7b7;
+	margin-top: 8px;
+	font-size: 14px;
+}
+.fenlei span
+{
+	float: left;
+	margin-left: 10px;
+	height: 32.4px;
+	width: 72px;
+	line-height: 32.4px;
+	/*border: solid 1px;*/
+}
+.fenlei ul
+{
+	margin-top: 0px;
+	padding-left: 2px;
+	float: left;
+	/*border: solid 1px;*/
+}
+.fenlei li
+{
+	/*border: solid 1px;*/
+	height: 32.4px;
+	width: 108px;
+	display: inline-block;
+	line-height: 32.4px;
+	text-align: center;
+}
+.fenlei li:hover
+{
+	background: #243240;
+	color: white;
+}
+.fenlei li:hover a
+{
+	color: white;
+}
+.paixu
+{
+	height: 32.4px;
+	width: 980px;
+	/*border: solid 1px;*/
+	margin: auto;
+	margin-top: 15px;
+	font-size: 14px;
+}
+.paixu ul
+{
+	padding-left: 0px;
+	margin-top: 0px;
+	float: left;
+
+}
+.paixu li
+{
+	display: inline-block;
+	height: 32.4px;
+	width: 90px;
+	border: solid 1px #b7b7b7;
+	line-height: 32.4px;
+	text-align: center;
+}
+.paixu li:hover
+{
+	background: #243240;
+	color: white;
+}
+.paixu li:hover a
+{
+	color: white;
+}
+#online
+{
+	width: 980px;
+	height: 980px;
+	margin: auto;
+	/*border: solid 1px;*/
+	margin-top: 25px;
+}
+#online ul
+{
+	/*border: solid 1px;*/
+	margin: 0px;
+	padding-left: 0px;
+}
+#online li
+{
+	height: 293px;
+	width: 214px;
+	border: solid 1px #b7b7b7;
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 30px;
+	margin-bottom: 25px;
+}
+#online img
+{
+	margin: 15px 36.5px 0px 36.5px;
+	width: 141px;
+	height: 178px;
+}
+#online h3,p
+{
+	font-size: 14px;
+	line-height: 25px;
+	margin: 0px 36px;
+}
+#second
+{
+	width: 980px;
+	height: 980px;
+	margin: auto;
+	/*border: solid 1px;*/
+	margin-top: 25px;
+}
+#second ul
+{
+	/*border: solid 1px;*/
+	margin: 0px;
+	padding-left: 0px;
+}
+#second li
+{
+	height: 293px;
+	width: 214px;
+	border: solid 1px #b7b7b7;
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 30px;
+	margin-bottom: 25px;
+}
+#second img
+{
+	margin: 15px 36.5px 0px 36.5px;
+	width: 141px;
+	height: 178px;
+}
+#second h3,p
+{
+	font-size: 14px;
+	line-height: 25px;
+	margin: 0px 36px;
+}
+.xianshi
+{
+	display: block;
+}
+.xiaoshi
+{
+	display: none;
+}
+.button
+{
+	width: 180px;
+	height: 108px;
+	margin: auto;
+}
+.button input
+{
+	background:white;
+	border: solid 1px #ebeff1;
+	height: 40px;
+	width: 40px;
+	float: left;
+}
+.button .blue
+{
+	background: #243240;
+	color: white;
+}

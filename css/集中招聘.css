@@ -1,0 +1,193 @@
+*
+{
+	list-style: none;
+	text-decoration: none;
+}
+a
+{
+	color: black;
+}
+.jizhong
+{
+	font-size: 14px;
+	color: #F28B06；
+}
+.jizhong1
+{
+	font-size: 14px;
+	color: black;
+}
+.position ul
+{
+	display: inline-block;
+	width: 980px;
+	height: 32.4px;
+	/*border: solid 1px;*/
+}
+.position ul li
+{
+	float: left;
+	height: 32.4px;
+	width: 490px;
+	line-height: 32.4px;
+	text-align: center;
+	background: #ebeff1;
+	font-size: 14px;
+}
+.position ul li:hover
+{
+	background: #243240;
+	color: white;
+}
+.position ul li:hover a
+{
+	color: white;
+}
+
+.position .dianji
+{
+	background: #243240; 
+	color: white;
+}
+.position a
+{
+	text-decoration: none;
+}
+
+
+.quxiao
+{
+ background: #ebeff1;
+}
+
+
+.xianshi
+{
+	display: block;
+}
+
+.xiaoshi
+{
+	display: none;
+}
+
+
+
+.back
+{
+	width: 980px;
+	height: 351px;
+	margin: 0px auto;
+	margin-top: 10px;
+	background: url(../image/CBO.png) no-repeat;
+	background-size: 980px;
+
+}
+.jieshao
+{
+	width: 980px;
+	height: 1050px;
+	margin:0px auto;
+	/*border: solid 1px;*/
+}
+.jieshao ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+.jieshao li
+{
+	float: left;
+	width: 480px;
+	height: 157px;
+	border:solid #ebeff1 1px;
+	margin-left: 16px;
+	margin-bottom: 10px;
+	background: url(../image/longxin.png) no-repeat;
+	background-size: 198px;
+	background-position: 30px 20px;
+}
+.jieshao p
+{
+	padding-right: 30px;
+	text-align: right;
+	font-size: 14px;
+	padding-top: 10px
+}
+.jieshao .red
+{
+	font-size: 18px;
+	color: red;
+	font-weight: bolder;
+}
+.jieshao .longxin
+{
+	color: red;
+}
+
+
+
+.jieshao1
+{
+	width: 980px;
+	height: 1050px;
+	margin:0px auto;
+	/*border: solid 1px;*/
+}
+.jieshao1 ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+.jieshao1 li
+{
+	float: left;
+	width: 480px;
+	height: 157px;
+	border:solid #ebeff1 1px;
+	margin-left: 16px;
+	margin-bottom: 10px;
+	background: url(../image/huang.jpg) no-repeat;
+	background-size: 198px;
+	background-position: 30px 20px;
+}
+.jieshao1 p
+{
+	padding-right: 30px;
+	text-align: right;
+	font-size: 14px;
+	padding-top: 10px
+}
+.jieshao1 .red
+{
+	font-size: 18px;
+	color: red;
+	font-weight: bolder;
+}
+.jieshao1 .longxin
+{
+	color: red;
+}
+.button
+{
+	width: 180px;
+	height: 108px;
+	margin: auto;
+}
+.button input
+{
+	background:white;
+	border: solid 1px #ebeff1;
+	height: 40px;
+	width: 40px;
+	float: left;
+}
+.button .blue
+{
+	background: #243240;
+	color: white;
+}
+/*.button .gray
+{
+
+}*/

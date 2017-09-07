@@ -1,0 +1,380 @@
+<html>
+<head>
+	<title>培训活动</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/css4.css">
+	<script type="text/javascript">
+	//文档部分
+	   function taped (num,aa) {
+	   	var a=document.getElementById("tab");
+	   	var b=document.getElementById('creat');
+	   	for (var i = 0; i < 3; i++) 
+	   	{
+	   		a.children[i].style.backgroundColor="rgb(230,234,239)";
+	   		a.children[i].style.color="black";
+	   		if (num==1) {
+	   		b.innerHTML=" ";
+	   		document.getElementById("creat").innerHTML="项目路演"}
+	   		else if (num==2) {
+	   	    b.innerHTML=" ";
+	   		document.getElementById("creat").innerHTML="创业培训"}
+	   		else{
+	   	    b.innerHTML=" ";
+	   		document.getElementById("creat").innerHTML="资源对接"};
+	   		}
+
+	   	aa.style.backgroundColor="rgb(20,30,39)";
+	   	aa.style.color="rgb(255,255,255)";
+
+	   	var olds=document.querySelectorAll('div');
+	   	for (var i = 1; i < olds.length; i++) 
+	   	{   
+	   		olds[i].style.zIndex="0";
+	   	};
+	   	var curr=document.getElementById("content"+num)
+	   curr.style.zIndex='1';
+	   	};
+
+	   	    function t1(){
+				window.location.href="../html/团队入驻.html";
+			}
+			function t2(){
+				window.location.href="../html/小微金融.html";
+			}
+			function t3(){
+				window.location.href="../html/政策申请.html";
+			}
+			function t4(){
+				window.location.href="../html/集中招聘.html";
+			}
+			function t5(){
+				window.location.href="../html/培训中心.html";
+			}
+			function t6(){
+				window.location.href="../html/创业导师.html";
+			}
+			function t7(){
+				window.location.href="../html/法律服务.html";
+			}
+			function t8(){
+				window.location.href="../html/基础运营服务.html";
+			}
+	   	
+	     function on1() {
+	     	var button1=document.getElementById('button1');
+	     	var button2=document.getElementById('button2');
+	     	var butt1=document.getElementById('butt1');
+	     	var butt2=document.getElementById('butt2');
+	     	var buttr=document.getElementById('buttr');
+	     	var buttl=document.getElementById('buttl');
+	     	button2.style.display="none";
+	     	button1.style.display="block";
+	     	butt1.style.color="rgb(255,255,255)";
+	     	butt2.style.color="black";
+	     	butt1.style.backgroundColor="rgb(20,30,39)";
+	     	butt2.style.backgroundColor="rgb(255,255,255)";
+	     	buttr.style.backgroundColor="rgb(255,255,255)";
+	     	buttl.style.backgroundColor="rgb(255,255,255)";
+
+
+	     }
+	     function on2() {
+	     	var button1=document.getElementById('button1');
+	     	var button2=document.getElementById('button2');
+	     	var butt2=document.getElementById('butt2');
+	     	var butt1=document.getElementById('butt1');
+	     	var buttr=document.getElementById('buttr');
+	     	var buttl=document.getElementById('buttl');
+	     	console.log(button1.style.visibility);
+	     	console.log(button1);
+	     	button1.style.display="none";
+	     	button2.style.display="block";
+	     	butt2.style.color="rgb(255,255,255)";
+	     	butt1.style.color="black";
+	     	butt2.style.backgroundColor="rgb(20,30,39)";
+	     	butt1.style.backgroundColor="rgb(255,255,255)";
+	     	buttr.style.backgroundColor="rgb(255,255,255)";
+	     	buttl.style.backgroundColor="rgb(255,255,255)";
+	     }
+	     function onr() {
+	     	var button1=document.getElementById('button1');
+	     	var button2=document.getElementById('button2');
+	     	var butt2=document.getElementById('butt2');
+	     	var butt1=document.getElementById('butt1');
+	     	var buttr=document.getElementById('buttr');
+	     	var buttl=document.getElementById('buttl');
+	     	console.log(button1.style.visibility);
+	     	console.log(button1);
+	     	button2.style.display="none";
+	     	button1.style.display="block";
+	     	butt2.style.color="black";
+	     	butt1.style.backgroundColor="rgb(20,30,39)";
+	     	butt1.style.color="rgb(255,255,255)";
+	     	butt2.style.backgroundColor="rgb(255,255,255)";
+	     	buttr.style.backgroundColor="rgb(255,255,255)";
+	     	buttl.style.backgroundColor="rgb(255,255,255)";
+	     }
+	     function onl() {
+	     	var button1=document.getElementById('button1');
+	     	var button2=document.getElementById('button2');
+	     	var butt2=document.getElementById('butt2');
+	     	var butt1=document.getElementById('butt1');
+	     	var buttr=document.getElementById('buttr');
+	     	var buttl=document.getElementById('buttl');
+	     	console.log(button1.style.visibility);
+	     	console.log(button1);
+	     	button1.style.display="none";
+	     	button2.style.display="block";
+	     	butt1.style.color="black";
+	     	butt2.style.color="rgb(255,255,255)";
+	     	butt2.style.backgroundColor="rgb(20,30,39)";
+	     	butt1.style.backgroundColor="rgb(255,255,255)";
+	     	buttr.style.backgroundColor="rgb(255,255,255)";
+	     	buttl.style.backgroundColor="rgb(255,255,255)";
+	     }
+
+
+
+	     	     function on11() {
+	     	var button11=document.getElementById('dd5');
+	     	var butt11=document.getElementById('butt11');
+	     	var butt22=document.getElementById('butt22');
+	     	var buttrr=document.getElementById('buttrr');
+	     	var buttll=document.getElementById('buttll');
+	     	button11.style.display="block";
+	     	butt22.style.color="black";
+	     	butt11.style.color="rgb(255,255,255)";
+	     	butt11.style.backgroundColor="rgb(20,30,39)";
+	     	butt22.style.backgroundColor="rgb(255,255,255)";
+	     	buttrr.style.backgroundColor="rgb(255,255,255)";
+	     	buttll.style.backgroundColor="rgb(255,255,255)";
+	     	console.log(11100);
+          }
+
+          function on22() {
+	     	var button22=document.getElementById('dd5');
+	     	var butt11=document.getElementById('butt11');
+	     	var butt22=document.getElementById('butt22');
+	     	var buttrr=document.getElementById('buttrr');
+	     	var buttll=document.getElementById('buttll');
+	     	button22.style.display="none";
+	     	butt22.style.color="rgb(255,255,255)";
+	     	butt11.style.color="black";
+	     	butt22.style.backgroundColor="rgb(20,30,39)";
+	     	butt11.style.backgroundColor="rgb(255,255,255)";
+	     	buttrr.style.backgroundColor="rgb(255,255,255)";
+	     	buttll.style.backgroundColor="rgb(255,255,255)";
+          }
+
+           function onrr() {
+	     	var button22=document.getElementById('dd5');
+	     	var butt11=document.getElementById('butt11');
+	     	var butt22=document.getElementById('butt22');
+	     	var buttrr=document.getElementById('buttrr');
+	     	var buttll=document.getElementById('buttll');
+	     	button22.style.display="block";
+	     	butt22.style.color="black";
+	     	butt11.style.color="rgb(255,255,255)";
+	     	butt11.style.backgroundColor="rgb(20,30,39)";
+	     	butt22.style.backgroundColor="rgb(255,255,255)";
+	     	buttrr.style.backgroundColor="rgb(255,255,255)";
+	     	buttll.style.backgroundColor="rgb(255,255,255)";
+          }
+
+           function onll() {
+	     	var button22=document.getElementById('dd5');
+	     	var butt11=document.getElementById('butt11');
+	     	var butt22=document.getElementById('butt22');
+	     	var buttrr=document.getElementById('buttrr');
+	     	var buttll=document.getElementById('buttll');
+	     	button22.style.display="none";
+	     	butt11.style.color="black";
+	     	butt22.style.color="rgb(255,255,255)";
+	     	butt22.style.backgroundColor="rgb(20,30,39)";
+	     	butt11.style.backgroundColor="rgb(255,255,255)";
+	     	buttrr.style.backgroundColor="rgb(255,255,255)";
+	     	buttll.style.backgroundColor="rgb(255,255,255)";
+          }
+	   
+	   
+	   	
+      
+     </script>
+</head>
+<body>
+	<div id="thead">
+		<img src="../image/cz.jpg">		
+		<div>
+			<a href="../html/团队入驻.html" id="a11">服务</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="../html/secondbtn.html" id="a12">资讯</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="../html/thirdbtn.html" id="a13">展示</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="../html/fourthbtn.html" id="a14">学习</a>
+        </div> 
+	</div> 
+	<div id="tbody"> 
+		<h3><a href="../html/团队入驻.html">提供服务</a></h3>
+		<h4><a href="../html/hp.html">首页</a></h4>
+        <table>
+		<tr>
+			<td onclick="t1()">团队入驻</td>
+			<td onclick="t2()">小微金融</td>
+			<td onclick="t3()">政策申请</td>
+			<td onclick="t4()">集中招聘</td>
+			<td onclick="t5()" id="td5" bgcolor="#243240">培训中心</td>
+			<td onclick="t6()">创业导师</td>
+			<td onclick="t7()">法律服务</td>
+			<td onclick="t8()">基础运营服务</td>
+		</tr>
+        </table>
+
+        <img src="../image/kcpt.jpg" id="img1">
+
+        <div id="div1"><a >当前位置><a href="../html/hp.html">首页></a><a href="../html/团队入驻.html">提供服务></a><a href="../html/培训中心.html">培训活动></a>
+        	<h id="creat">资源对接</h></div>
+        	
+        <ul id="tab">
+           <li id="tab3"onclick="taped(3,this)">资源对接</li>
+           <li id="tab2"onclick="taped(2,this)">创业培训</li>
+           <li id="tab1"onclick="taped(1,this)">项目路演</li>
+	    </ul>
+        
+      
+    
+	<div id="box">
+		<div id="content1">
+			<table align="center"cellpadding="8px"cellspacing="16px"id="button1">
+				<tr>
+					<td><img src="../image/tzqy.png">
+						<div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div>
+					</td>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+				</tr>
+				<tr>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+				</tr>
+				<tr>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+				</tr></table>
+				 <table>
+			<table align="center"cellpadding="8px"cellspacing="16px"id="button2"style="display:none;">
+				<tr>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+					<td><img src="../image/tzqy.png"><div>2016上海路演   主讲人：XXX <br>	
+							项目路演分为线上项目路演黑线下项目路演。线上项目路演主要是通过QQ群，微信群，或者在线视频等互联网方式对项目进行讲解；线下项目路演演主要通过活动专场对投资人进行面对面演讲及交流。
+						</div></td>
+				</tr></table>
+
+		   <div id="divn">
+			<button id="buttr"onclick="onr(this)"><</button>
+		    <button id="butt1"onclick="on1(this)">1</button>
+		    <button id="butt2"onclick="on2(this)">2</button>
+		    <button id="buttl"onclick="onl(this)">></button>
+		   </div>
+
+
+			
+
+			
+		</div>
+		<div id="content2">
+			  &nbsp;&nbsp;&nbsp;&nbsp;创业培训(Entrepreneurship training) ，创业培训是对具有创办小企业意向的人员和小企业经营管理者进行企业<br>	
+			  &nbsp;&nbsp;创办能力、市场经营素质等方面的培训，并对他们在企业开办、经营过程中给予一定的政策指导，其目的是通过提高企<br>
+			  业创办者创业的心理、管理、经营等素质，增强参与市场竞争和驾驭市场的应变能力，使小企业创办者在成功地创办企<br>
+			  &nbsp;&nbsp;业，解决自身就业 问题的同时，创造和增加社会就业岗位，帮助更多的人实现就业或再就业。创业培训的对象可以是下<br>
+			  &nbsp;&nbsp;岗失业人员，也可以是院校毕业生，农村准备向非农产业转移的人员或返乡创业人员。只要有创业愿望和一定的创业能<br>
+			  力，都可以申请参加开办企业的 培训后实现创业分为创办企业和自谋职业两种形式。前者要在工商部门办理私营企业注<br>
+			  &nbsp;&nbsp;册登记；后者是指在工商部门办理个体营业执照或在社区举办非正规就业组织。
+		</div>
+		<div id="content3">
+	<div id="divn">
+		<div id="dd1"><img src="../image/zml.png"id="zml">
+			<p>&nbsp;&nbsp;无论你是喜欢人像纪实还是风光小品，无论你是单反狂还是手机党，无论你是对相机一无所知的摄影小白还是小有所成的摄影达人，只要你对摄影有兴趣和热情，XXXX摄影兴趣小组都欢迎你的加入。这有XXX摄影协会的专业摄影老师进行理论教学，还有手把手实拍教学和点评。机会难得，先报先得<img src="../image/hd.jpg"></p></div>
+		    <div id="dd2"><img src="../image/zml.png"id="zml"><p>&nbsp;&nbsp;无论你是喜欢人像纪实还是风光小品，无论你是单反狂还是手机党，无论你是对相机一无所知的摄影小白还是小有所成的摄影达人，只要你对摄影有兴趣和热情，XXXX摄影兴趣小组都欢迎你的加入。这有XXX摄影协会的专业摄影老师进行理论教学，还有手把手实拍教学和点评。机会难得，先报先得<img src="../image/hd.jpg"></p></div>
+		    <div id="dd3"><img src="../image/zml.png"id="zml"><p>&nbsp;&nbsp;无论你是喜欢人像纪实还是风光小品，无论你是单反狂还是手机党，无论你是对相机一无所知的摄影小白还是小有所成的摄影达人，只要你对摄影有兴趣和热情，XXXX摄影兴趣小组都欢迎你的加入。这有XXX摄影协会的专业摄影老师进行理论教学，还有手把手实拍教学和点评。机会难得，先报先得<img src="../image/hd.jpg"></p></div>
+			<div id="dd4"><img src="../image/zml.png"id="zml"><p>&nbsp;&nbsp;无论你是喜欢人像纪实还是风光小品，无论你是单反狂还是手机党，无论你是对相机一无所知的摄影小白还是小有所成的摄影达人，只要你对摄影有兴趣和热情，XXXX摄影兴趣小组都欢迎你的加入。这有XXX摄影协会的专业摄影老师进行理论教学，还有手把手实拍教学和点评。机会难得，先报先得<img src="../image/hd.jpg"></p></div>
+			<div id="dd5"><img src="../image/zml.png"id="zml"><p>&nbsp;&nbsp;无论你是喜欢人像纪实还是风光小品，无论你是单反狂还是手机党，无论你是对相机一无所知的摄影小白还是小有所成的摄影达人，只要你对摄影有兴趣和热情，XXXX摄影兴趣小组都欢迎你的加入。这有XXX摄影协会的专业摄影老师进行理论教学，还有手把手实拍教学和点评。机会难得，先报先得<img src="../image/hd.jpg"></p></div>
+	</div>
+
+		   <div>
+			  <button id="buttrr"onclick="onrr(this)"><</button>
+		      <button id="butt11"onclick="on11(this)">1</button>
+		      <button id="butt22"onclick="on22(this)">2</button>
+		      <button id="buttll"onclick="onll(this)">></button>
+		   </div>
+		</div>
+		<br>
+		
+
+
+
+	</div></div>
+
+    <div id="tfoot">
+		<table id="table2"cellpadding="5px">
+			<tr>
+				<td></td>
+				<td><a href="../html/hp.html" id="a2" style="color:rgb(255,255,255);">首页</a>&nbsp;&nbsp;&nbsp;<a href=""id="a2"style="color:rgb(255,255,255);">联系我们</a></td>
+				<td><a style="color:rgb(255,255,255);" id="a2">联系电话:480 501 0000</a></td>
+				<td rowspan="3"align="center"><img src="../image/ewm.png"id="a1"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a style="color:rgb(255,255,255);" id="a2">@2016 创智国际 版权所有</a></td>
+				<td><a style="color:rgb(255,255,255);" id="a2">电子邮箱：1234567890@sina.com</a></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a style="color:rgb(255,255,255);">友情链接</a><a href="https://www.baidu.com/" id="a2" style="color:rgb(255,255,255);">&nbsp;百度</a> <a href="http://www.google.com.hk"id="a2">&nbsp;&nbsp;谷歌</a></td>
+				<td><a style="color:rgb(255,255,255);">地址：北京海淀区中关村大街18号科贸中心大厦B座9号</a></td>
+				<td></td>
+			</tr>
+
+		</table>
+</div>
+
+
+</body>
+</html>
